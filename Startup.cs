@@ -52,7 +52,7 @@ namespace asp_net_core_razor_pages_view_component_ajax_refresh
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
-            app.UseMvc();
+            app.UseMvcWithDefaultRoute();
         }
     }
 }
